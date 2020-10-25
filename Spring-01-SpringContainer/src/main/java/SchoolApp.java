@@ -7,7 +7,7 @@ import services.FullTimeMentor;
 public class SchoolApp {
     public static void main(String[] args)  {
 
-        // Where we save in our beans ( whatever we save in the xml)
+        // Where we save in our beans ( whatever we save in the xml).
         //    <bean id ="fullTimeMentor" class = "services.FullTimeMentor"></bean>
         BeanFactory container = new ClassPathXmlApplicationContext("config.xml"); // since we are using xml
 
