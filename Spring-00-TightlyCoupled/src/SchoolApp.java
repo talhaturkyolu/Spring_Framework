@@ -7,7 +7,7 @@ public class SchoolApp {
         Mentor mentor = new Mentor(fullTime,partTime); //MI
         mentor.manageAccount();
 
-        //MI
+        //MI.
 
     }
 }
