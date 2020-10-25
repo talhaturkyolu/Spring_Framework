@@ -13,5 +13,6 @@ public class SchoolApp {
         Course course = container.getBean("Java",Course.class);
 
         course.getTeachingHours();
+        //
     }
 }
