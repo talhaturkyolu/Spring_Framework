@@ -6,7 +6,7 @@ import service.PartTimeMentor;
 public class SchoolApp {
 
     public static void main(String[] args) {
-       // FulltimeMentor fullTime = new FulltimeMentor();
+       // FulltimeMentor fullTime = new FulltimeMentor();.
 
         PartTimeMentor partTime = new PartTimeMentor();
 
