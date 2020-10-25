@@ -4,9 +4,6 @@ import School.interfaces.Course;
 
 public class Java implements Course {
 
-
-
-
     private  OfficeHours OfficeHours;
 
     public void setGetOfficeHours(OfficeHours getOfficeHours) {   //set + officeHours

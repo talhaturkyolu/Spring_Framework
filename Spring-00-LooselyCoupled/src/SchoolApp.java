@@ -1,13 +1,16 @@
 import implementation.Mentor;
 import service.FulltimeMentor;
 import service.MentorAccount;
+import service.PartTimeMentor;
 
 public class SchoolApp {
 
     public static void main(String[] args) {
-        FulltimeMentor fullTime = new FulltimeMentor();
+       // FulltimeMentor fullTime = new FulltimeMentor();
 
-        MentorAccount mentor = new MentorAccount(fullTime);
+        PartTimeMentor partTime = new PartTimeMentor();
+
+        MentorAccount mentor = new MentorAccount(partTime);
 
         mentor.manageAccount();
 
