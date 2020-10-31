@@ -23,4 +23,5 @@ public class Java implements Course {
     public int getTeachingHours() {
         return 20+extraSessions.getHour();
     }
+
 }
