@@ -1,6 +1,6 @@
 package School.services;
 
-import School.interfaces.Course;
+import School.School.School.interfaces.Course;
 
 public class Java implements Course {
 

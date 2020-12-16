@@ -1,7 +1,7 @@
 package School.services;
 
 
-import School.interfaces.ExtraSessions;
+import School.School.School.interfaces.ExtraSessions;
 
 public class OfficeHours implements ExtraSessions {
     @Override

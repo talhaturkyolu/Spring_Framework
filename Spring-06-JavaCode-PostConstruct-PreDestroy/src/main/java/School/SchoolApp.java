@@ -9,10 +9,10 @@ public class SchoolApp {
     public static void main(String[] args) {
         ApplicationContext container = new AnnotationConfigApplicationContext(SchoolAppConfig.class);
 
-        Course course = container.getBean("java",Course.class);
+        Course course = container.getBean("java", Course.class);
 
         course.getTeachingHourse();
 
-        ((AnnotationConfigApplicationContext)container).close();
+        ((AnnotationConfigApplicationContext) container).close();
     }
 }

@@ -1,6 +1,6 @@
 package School.services;
 
-import School.interfaces.Course;
+import School.School.interfaces.Course;
 import org.springframework.stereotype.Component;
 
 @Component

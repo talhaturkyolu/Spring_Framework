@@ -21,7 +21,7 @@ public class Java implements Course {
 
     @Override
     public int getTeachingHours() {
-        return 20+extraSessions.getHour();
+        return 20 + extraSessions.getHour();
     }
 
 }

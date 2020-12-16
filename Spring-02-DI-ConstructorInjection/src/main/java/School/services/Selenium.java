@@ -4,6 +4,7 @@ import School.Interfaces.Course;
 
 public class Selenium implements Course {
     OfficeHours officeHours;
+
     public Selenium(OfficeHours officeHours) {
         this.officeHours = officeHours;
     }

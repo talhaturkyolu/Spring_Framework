@@ -1,10 +1,10 @@
 package School.services;
 
-import School.interfaces.Course;
+import School.School.School.interfaces.Course;
 
 public class Java implements Course {
 
-    private  OfficeHours OfficeHours;
+    private OfficeHours OfficeHours;
 
     public void setGetOfficeHours(OfficeHours getOfficeHours) {   //set + officeHours
         this.OfficeHours = getOfficeHours;
@@ -16,6 +16,6 @@ public class Java implements Course {
 
     @Override
     public void getTeachingHours() {
-        System.out.println("Weekly Teaching Hours : " + (20+OfficeHours.getHours()));
+        System.out.println("Weekly Teaching Hours : " + (20 + OfficeHours.getHours()));
     }
 }

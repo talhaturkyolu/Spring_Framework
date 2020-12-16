@@ -8,7 +8,7 @@ public class School {
 
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
 
-        Course course = container.getBean("Selenium",Course.class);
+        Course course = container.getBean("Selenium", Course.class);
 
         course.getTeachingHours();
     }

@@ -10,7 +10,7 @@ public class SchoolApp {
 
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
 
-        Course course = container.getBean("Java",Course.class);
+        Course course = container.getBean("Java", Course.class);
 
         course.getTeachingHours();
         //

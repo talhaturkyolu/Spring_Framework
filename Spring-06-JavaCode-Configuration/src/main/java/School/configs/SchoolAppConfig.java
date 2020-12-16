@@ -14,12 +14,12 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:application.properties")
 public class SchoolAppConfig {
     @Bean
-    public Java java(){
+    public Java java() {
         return new Java(extraSessions());
     }
 
     @Bean
-    public Selenium selenium(){
+    public Selenium selenium() {
         return new Selenium();
     }
 /*
@@ -30,7 +30,7 @@ public class SchoolAppConfig {
  */
 
     //@Bean
-    public ExtraSessions extraSessions(){
+    public ExtraSessions extraSessions() {
         return new OfficeHours();
     }
 

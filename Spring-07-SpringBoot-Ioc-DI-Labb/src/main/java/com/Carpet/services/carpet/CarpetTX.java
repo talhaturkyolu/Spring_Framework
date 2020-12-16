@@ -14,10 +14,10 @@ public class CarpetTX implements Carpet {
 
     private static final Map<City, BigDecimal> sqPriceForCity = new HashMap<>();
 
-    static{
-        sqPriceForCity.put(City.AUSTIN,new BigDecimal("1.32"));
-        sqPriceForCity.put(City.DULLES,new BigDecimal("1.75"));
-        sqPriceForCity.put(City.SAN_ANTONIO,new BigDecimal("2.20"));
+    static {
+        sqPriceForCity.put(City.AUSTIN, new BigDecimal("1.32"));
+        sqPriceForCity.put(City.DULLES, new BigDecimal("1.75"));
+        sqPriceForCity.put(City.SAN_ANTONIO, new BigDecimal("2.20"));
     }
 
 
@@ -26,7 +26,7 @@ public class CarpetTX implements Carpet {
 
         BigDecimal defaultValue = BigDecimal.ZERO;
 
-        Optional<Map.Entry<City,BigDecimal>> collect = sqPriceForCity.entrySet().stream().filter(x -> x.getKey() == city).findFirst();
+        Optional<Map.Entry<City, BigDecimal>> collect = sqPriceForCity.entrySet().stream().filter(x -> x.getKey() == city).findFirst();
 
         return collect.isPresent() ? collect.get().getValue() : defaultValue;
     }

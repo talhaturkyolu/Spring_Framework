@@ -12,7 +12,7 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String birthday;
-    private  String email;
+    private String email;
     private String password;
     private String address;
     private String address2;

@@ -9,15 +9,15 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class CarpetApplication {
 
-	public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
-		ApplicationContext container = SpringApplication.run(CarpetApplication.class, args);
+        ApplicationContext container = SpringApplication.run(CarpetApplication.class, args);
 
-		Calculator calculator = container.getBean("calculator",Calculator.class);
+        Calculator calculator = container.getBean("calculator", Calculator.class);
 
-		System.out.println(calculator.getTotalCarpetCost(City.AUSTIN));
+        System.out.println(calculator.getTotalCarpetCost(City.AUSTIN));
 
 
-	}
+    }
 
 }

@@ -4,14 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="Java" class="School.services.Java">
-       <property name="getOfficeHours" ref="officeHours"/>
+    <bean id="Java" class="School.School.School.services.Java">
+        <property name="getOfficeHours" ref="officeHours"/>
     </bean>
-    <bean id="Selenium" class="School.services.Selenium">
+    <bean id="Selenium" class="School.School.School.services.Selenium">
         <constructor-arg ref="officeHours"/>
     </bean>
 
-    <bean id="officeHours" class="School.services.OfficeHours"></bean>
+    <bean id="officeHours" class="School.School.School.services.OfficeHours"></bean>
 
 
 </beans>
