@@ -26,6 +26,12 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf)/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf)/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf).iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-SQL-Review/Spring-09-SQL-Review.iml" filepath="$PROJECT_DIR$/Spring-09-SQL-Review/Spring-09-SQL-Review.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Framework.iml" filepath="$PROJECT_DIR$/Spring_Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/befty (1).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/befty (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/befty (2).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/befty (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf)/befty (3).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-(Thymeleaf)/befty (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee-Registration/employee.iml" filepath="$PROJECT_DIR$/Employee-Registration/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/school.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/school.iml" />
     </modules>
   </component>
 </project>
